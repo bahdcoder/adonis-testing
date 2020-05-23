@@ -1,0 +1,29 @@
+{
+  "name": "adonis-testing",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ace build",
+    "start": "node ace serve --watch"
+  },
+  "devDependencies": {
+    "@adonisjs/assembler": "^2.0.0",
+    "adonis-preset-ts": "^1.0.4",
+    "pino-pretty": "^4.0.0",
+    "typescript": "^3.9.3",
+    "youch": "^2.0.10",
+    "youch-terminal": "^1.0.0"
+  },
+  "dependencies": {
+    "@adonisjs/ace": "^6.0.0",
+    "@adonisjs/core": "^5.0.0-preview-rc",
+    "@adonisjs/fold": "^6.0.0",
+    "@types/mocha": "^7.0.2",
+    "@types/supertest": "^2.0.9",
+    "mocha": "^7.2.0",
+    "proxy-addr": "^2.0.6",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.19",
+    "supertest": "^4.0.2"
+  }
+}
